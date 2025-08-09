@@ -1,0 +1,12 @@
+[
+  {
+    "id": "3b64a9f8-8b14-47d3-9e2d-3b0f7648e6a7",
+    "title": "User can view a list of anchors",
+    "details": "As a user, I want to see a list of anchor items parsed from the PRD so I can select one to view details."
+  },
+  {
+    "id": "e2a1f2d1-3f09-4f2d-ae7b-2c9d6a4b2e21",
+    "title": "User can tap an anchor to see details",
+    "details": "Tapping an anchor shows more information derived from the execution plan."
+  }
+]
