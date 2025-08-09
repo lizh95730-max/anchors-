@@ -1,0 +1,25 @@
+name: AnchorApp
+options:
+  bundleIdPrefix: com.example
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    IPHONEOS_DEPLOYMENT_TARGET: 16.0
+packages: {}
+targets:
+  AnchorApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: App
+      - path: Resources
+        type: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.AnchorApp
+    info:
+      path: App/Info.plist
+      properties:
+        UISupportedInterfaceOrientations: ["UIInterfaceOrientationPortrait"]
+        UILaunchScreen: {}
